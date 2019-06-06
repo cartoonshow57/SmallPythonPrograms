@@ -1,3 +1,5 @@
+# This program checks if a number belongs to the Fibonacci series
+
 def check_perf_square(number):
     s = int(number ** 0.5)
     return s * s == number
