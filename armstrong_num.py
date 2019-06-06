@@ -1,3 +1,5 @@
+# This program takes a number as input and checks if it is Armstrong or not
+
 def arm_num(num):
     sum = 0
     while num >= 1:
