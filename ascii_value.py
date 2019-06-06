@@ -1,3 +1,5 @@
+# This program inputs a character and prints its ASCII value
+
 def ascii_value(string):
     a = ord(string)
     return a
