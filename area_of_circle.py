@@ -1,3 +1,5 @@
+# This program takes radius as input and calculates the area
+
 def area(radius):
     pi = 3.14
     area = pi * radius ** 2
