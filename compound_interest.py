@@ -1,4 +1,6 @@
-p = int(input("Enter the Principe amount: "))
+# This program take Principle, Rate and Time as input and calculates Compound Interest.
+
+p = int(input("Enter the Principle amount: "))
 r = float(input("Enter the Rate of Interest: "))
 t = int(input("Enter the Time period: "))
 def cmpd_int(p1, r1, t1):
