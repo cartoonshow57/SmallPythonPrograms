@@ -1,3 +1,5 @@
+# This program prints the largest in a given array
+
 def largest_in_arr(arr):
     largest = 0
     for j in arr:
