@@ -1,3 +1,5 @@
+# A dummy program for how a nested loop works
+
 print("Nested loop example")
 print("-------------------------------")
 for i in range(1, 4, 1):
