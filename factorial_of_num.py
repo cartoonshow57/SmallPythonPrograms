@@ -1,3 +1,5 @@
+# This program inputs a number and prints its factorial
+
 def fact_of_num(num):
     if num == 0 or num == 1:
         return 1
