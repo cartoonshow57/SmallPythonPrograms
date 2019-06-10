@@ -1,4 +1,5 @@
-# Define function to find nth fibonacci number
+# This program prints a certain term of the fibonacci series
+
 def fibonacci(num):
     if num == 1:
         return 0
