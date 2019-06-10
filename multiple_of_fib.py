@@ -1,3 +1,5 @@
+# This program takes a certain number from the fibonacci series and multiplies it by a certain number
+
 def fib_num(num):
     if num == 1:
         return 0
