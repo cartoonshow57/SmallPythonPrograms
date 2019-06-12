@@ -1,3 +1,5 @@
+# A program to sum the squares of all the numbers between zero and the input number
+
 def sum_of_n(num):
     count = 0
     if num >= 1:
