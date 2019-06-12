@@ -1,3 +1,5 @@
+# A progra to sum the cubes of numbers from zero till that the input number
+
 def sum_of_n_cubes(num):
     count = 0
     if num < 0:
