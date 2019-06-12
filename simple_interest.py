@@ -1,3 +1,5 @@
+# This program calculates Simple Interest for the given values
+
 p = int(input("Enter the Principle amount: "))
 r = int(input("Enter the Rate of interest: "))
 t = int(input("Enter the total Time period: "))
