@@ -1,3 +1,5 @@
+# This program prints the sum of all the elements in an array
+
 def sum_of_array(arr, n):
     total = sum(list(arr))
     return total
