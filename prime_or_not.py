@@ -1,3 +1,5 @@
+# This programs checks if a number is prime or not
+
 def prime_or_not(num):
     flag = 0
     if num > 1:
