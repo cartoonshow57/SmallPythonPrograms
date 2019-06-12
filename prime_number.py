@@ -1,4 +1,4 @@
-# This program takes a range and prints all the prime numbers in that rannge
+# This program takes a range and prints all the prime numbers in that range
 
 def prime_nums(start, end):
     for i in range(start, end + 1):
