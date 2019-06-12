@@ -1,3 +1,5 @@
+# This program inputs a number and prints the sum of its digits
+
 num = eval(input("Enter a 4-digit number : "))
 r1 = num % 10
 q1 = num // 10
