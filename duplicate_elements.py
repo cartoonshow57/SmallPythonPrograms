@@ -2,9 +2,10 @@
 If all the elements are unique it returns False
 and is elements occur twice it returns True"""
 
-def element_count(arr):
-    for i in arr:
-        if (arr.count(i) != 2):
+
+def element_count(arr1):
+    for i in arr1:
+        if arr1.count(i) != 2:
             return False
     return True
 
