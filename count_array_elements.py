@@ -1,21 +1,21 @@
 """This program takes an array and couts the occurrenes of each element in the array"""
 
 
-def count_element(arr):
+def count_element(arr1):
     lst = []
-    for i in arr:
+    for i in arr1:
         if i not in lst:
             lst.append(i)
-            count = arr.count(i)
+            count = arr1.count(i)
             print(i, "occurs", count, "times.")
-    return ""
+    return " "
 
 
 arr = []
 
 n = int(input("Enter the number of elements in the array: "))
 
-for i in range(n):
+for j in range(n):
     arr.append(int(input("Enter array element: ")))
 
 print("The array is: ", arr)
