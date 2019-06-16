@@ -3,9 +3,9 @@ This program swaps array elements fromm positions which the user inputs
 """
 
 
-def element_swap(arr, pos1, pos2):
-    arr[pos1], arr[pos2] = arr[pos2], arr[pos1]
-    return arr
+def element_swap(arr1, pos3, pos4):
+    arr1[pos3], arr1[pos4] = arr1[pos4], arr1[pos3]
+    return arr1
 
 
 arr = []
