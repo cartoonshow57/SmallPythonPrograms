@@ -1,10 +1,11 @@
 # This programs checks if a number is prime or not
 
-def prime_or_not(num):
+
+def prime_or_not(num1):
     flag = 0
-    if num > 1:
-        for i in range(2, num):
-            if (num % i) == 0:
+    if num1 > 1:
+        for i in range(2, num1):
+            if (num1 % i) == 0:
                 break
         else:
             flag += 1
