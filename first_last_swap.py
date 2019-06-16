@@ -1,11 +1,12 @@
 """This program interchanges the first and last element in an array"""
 
-def array_swap(arr):
-    first = arr.pop(0)
-    last = arr.pop()
-    arr.append(first)
-    arr.insert(0, last)
-    return arr
+
+def array_swap(arr1):
+    first = arr1.pop(0)
+    last = arr1.pop()
+    arr1.append(first)
+    arr1.insert(0, last)
+    return arr1
 
 
 arr = []
