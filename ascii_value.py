@@ -1,7 +1,8 @@
 # This program inputs a character and prints its ASCII value
 
-def ascii_value(string):
-    a = ord(string)
+
+def ascii_value(string1):
+    a = ord(string1)
     return a
 
 
