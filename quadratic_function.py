@@ -1,5 +1,6 @@
 # This program prints the roots of a quadratic equation by taking all the coefficients
 
+
 def eval_quad_equation(a, b, c):
     print("a = ", a)
     print("b = ", b)
@@ -11,5 +12,7 @@ def eval_quad_equation(a, b, c):
     else:
         print("Enter valid values of the equation.")
 
+
 eval_quad_equation(4, 3, 1)
-input()                                                                                     
+
+input()
