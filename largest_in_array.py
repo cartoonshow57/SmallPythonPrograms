@@ -1,8 +1,9 @@
 # This program prints the largest in a given array
 
-def largest_in_arr(arr):
+
+def largest_in_arr(arr1):
     largest = 0
-    for j in arr:
+    for j in arr1:
         if j > largest:
             largest = j
     return largest
