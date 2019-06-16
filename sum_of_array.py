@@ -1,7 +1,8 @@
 # This program prints the sum of all the elements in an array
 
-def sum_of_array(arr, n):
-    total = sum(list(arr))
+
+def sum_of_array(arr1):
+    total = sum(list(arr1))
     return total
 
 
@@ -13,6 +14,6 @@ for i in range(n):
     arr.append(int(input("Enter no. in array: ")))
 print("The given array is,", arr)
 
-print("The sum of given elements in the array is", sum_of_array(arr, n))
+print("The sum of given elements in the array is", sum_of_array(arr))
 
 input()
