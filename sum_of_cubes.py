@@ -1,13 +1,14 @@
-# A progra to sum the cubes of numbers from zero till that the input number
+# A program to sum the cubes of numbers from zero till that the input number
 
-def sum_of_n_cubes(num):
+
+def sum_of_n_cubes(num1):
     count = 0
-    if num < 0:
+    if num1 < 0:
         return "No negative numbers."
-    elif num == 0:
+    elif num1 == 0:
         return "The sum is 0."
     else:
-        for i in range(num + 1):
+        for i in range(num1 + 1):
             s = i * i * i
             count += s
     return count
