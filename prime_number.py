@@ -1,7 +1,8 @@
 # This program takes a range and prints all the prime numbers in that range
 
-def prime_nums(start, end):
-    for i in range(start, end + 1):
+
+def prime_nums(start1, end1):
+    for i in range(start1, end1 + 1):
         if i > 1:
             for j in range(2, i):
                 if (i % j) == 0:
