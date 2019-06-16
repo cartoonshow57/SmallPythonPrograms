@@ -3,9 +3,9 @@ returns True if array is monotonic increasing or decreasing
 else returns False"""
 
 
-def monotonic_array(arr):
-    return all(arr[i] >= arr[i + 1] for i in range(len(arr) - 1)) or (
-        all(arr[i] <= arr[i + 1] for i in range(len(arr) - 1)))
+def monotonic_array(arr1):
+    return all(arr1[i] >= arr1[i + 1] for i in range(len(arr1) - 1)) or (
+        all(arr1[i] <= arr1[i + 1] for i in range(len(arr1) - 1)))
 
 
 arr = []
