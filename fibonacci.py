@@ -1,12 +1,13 @@
 # This program prints a certain term of the fibonacci series
 
-def fibonacci(num):
-    if num == 1:
+
+def fibonacci(num1):
+    if num1 == 1:
         return 0
-    elif num == 2:
+    elif num1 == 2:
         return 1
-    elif num > 2:
-        return fibonacci(num - 1) + fibonacci(num - 2)
+    elif num1 > 2:
+        return fibonacci(num1 - 1) + fibonacci(num1 - 2)
     else:
         return "Invalid Input"
 
