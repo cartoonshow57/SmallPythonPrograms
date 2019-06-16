@@ -1,13 +1,14 @@
 # This program rotates the given array of num elements by d elements
 
-def array_rotation(arr, d):
+
+def array_rotation(arr1, d1):
     test_arr = []
     new_arr = []
-    for j in range(d):
-        element = arr.pop()
+    for j in range(d1):
+        element = arr1.pop()
         test_arr.append(element)
         test_arr.sort()
-    new_arr = test_arr + arr
+    new_arr = test_arr + arr1
     return new_arr
 
 
