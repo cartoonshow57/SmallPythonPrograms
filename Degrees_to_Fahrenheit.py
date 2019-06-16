@@ -1,8 +1,9 @@
 """This program converts Degree Celsius to Degree Fahrenheit using List Comprehension"""
 
-def deg_to_fah(Dehrees):
-    Fahrenheit = [(x * (9 / 5) + 32) for x in Degrees]
-    return Fahrenheit
+
+def deg_to_fah(Degrees1):
+    fahrenheit = [(x * (9 / 5) + 32) for x in Degrees1]
+    return fahrenheit
 
 
 Degrees = []
