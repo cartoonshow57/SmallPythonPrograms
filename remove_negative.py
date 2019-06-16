@@ -2,9 +2,9 @@
 and returns a list without any negative elements"""
 
 
-def remove_negative(arr):
+def remove_negative(arr1):
     positive_arr = []
-    for i in arr:
+    for i in arr1:
         if i < 0:
             continue
         else:
