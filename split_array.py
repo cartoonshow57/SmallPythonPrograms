@@ -1,14 +1,15 @@
 # This program splits a given array and adds the first part at the end
 
-def split_arr(arr, k):
+
+def split_arr(arr1, k1):
     new_arr = []
     req_arr = []
     count = 0
-    while (count < k):
-        element = arr.pop(0)
+    while count < k1:
+        element = arr1.pop(0)
         new_arr.append(element)
         count += 1
-    req_arr = arr + new_arr
+    req_arr = arr1 + new_arr
     return req_arr
 
 
