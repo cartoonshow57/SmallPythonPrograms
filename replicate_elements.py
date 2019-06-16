@@ -1,13 +1,14 @@
 """This program takes a list and an integer and replicates each array element
 by integer times"""
 
-def replicate_n_times(lst, n):
-    lst1 = []
-    for i in lst:
-        if i not in lst1:
-            for j in range(n):
-                lst1.append(i)
-    return lst1
+
+def replicate_n_times(lst1, n1):
+    lst2 = []
+    for i in lst1:
+        if i not in lst2:
+            for j in range(n1):
+                lst2.append(i)
+    return lst2
 
 
 lst = []
