@@ -1,12 +1,12 @@
 # This program multiply all the numbers in an array and divide them by a number n
 
 
-def array_multiplication(arr, n):
+def array_multiplication(arr1, n1):
     product = 1
-    for j in arr:
+    for j in arr1:
         product *= j
     print("The product of array elements is:", product)
-    remainder = product % n
+    remainder = product % n1
     print("The remainder comes out to be", remainder)
 
 
@@ -19,7 +19,7 @@ for i in range(num):
 
 n = int(input("Enter the number which divides the product of array elements: "))
 
-print("The given array is:", arr)
+print('The given array is:', arr)
 
 array_multiplication(arr, n)
 
