@@ -1,13 +1,13 @@
 """This program counts the elements of a list
-If all the elements are unique it returns False
-and is elements occur twice it returns True"""
+If all the elements are unique it returns True
+and is elements occur twice it returns False"""
 
 
 def element_count(arr1):
     for i in arr1:
         if arr1.count(i) != 2:
-            return False
-    return True
+            return True
+    return False
 
 
 arr = []
