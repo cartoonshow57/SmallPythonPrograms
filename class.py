@@ -1,25 +1,47 @@
-# Creating a basic Pong game
-
-import turtle
-
-# The Screen code
-wn = turtle.Screen()
-wn.title("A Classic Pong Game!")
-wn.bgcolor("black")
-wn.setup(height=600, width=800)
-wn.tracer(0)
+# Creating a basic Snake Game
+import pygame
 
 
-# Left Paddle
-
-paddle_a = turtle.Turtle()
-paddle_a.speed(0)
-paddle_a.shape("square")
-paddle_a.color("white")
-paddle_a.penup()
-paddle_a.shapesize(stretch_len=1, stretch_width=5)
-paddle_a.goto(0, 0)
+# Drawing the Grid
+from pygame.examples.video import *
 
 
+def drawGrid(w, rows, surface):
+    sizeBetween = width // rows
+    x = 0
+    y = 0
+    for l in range(rows):
+        x = x + sizeBetween
+        y = y + sizeBetween
 
-input()
+        pygame.draw.line(surface, (255, 255, 255), (x, 0), (x, w))
+        pygame.draw.line(surface, (255, 255, 255), (0, y), (w, y))
+
+# The Redraw Function
+
+def redrawWindow(surface):
+     global rows, width
+     win.fill((0, 0, 0))
+     drawGrid(width, rows, surface)
+     pygame.display.update()
+
+
+# The main Window
+
+def snake():
+    pass
+
+
+def main():
+    global width, rows
+    width = 500
+    rows = 20
+    win = pygame.display.set_mode((width, width))
+    s = snake((255, 0, 0), (10, 10))
+
+    clock = pygame.time.clock()
+
+    while(1):
+        pygame.time.delay(50)
+        clock.tick(10)
+        redrawWindow(win)

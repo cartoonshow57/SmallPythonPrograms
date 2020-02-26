@@ -1,4 +1,4 @@
-"""This program takes an array and couts the occurrenes of each element in the array"""
+"""This program takes an array and counts the occurrences of each element in the array"""
 
 
 def count_element(arr1):
