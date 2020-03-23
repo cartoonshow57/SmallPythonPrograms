@@ -23,6 +23,8 @@ n = int(input("Enter the number of elements in the array: "))
 for i in range(n):
     array.append(int(input("Enter array element: ")))
 
+array.sort()
+
 num = int(input("Enter the element you wanna search: "))
 
 if binarysearch(array, num):
