@@ -32,6 +32,8 @@ for i in range(n):
 
 x = int(input('Enter the element you want to search: '))
 
+arr.sort()
+
 pos = 0
 for i in range(len(arr)):
     if arr[i] == x:
