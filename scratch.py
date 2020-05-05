@@ -1,4 +1,6 @@
-# This program raises 5 fro 0 till the power of the number entered
+"""
+This program raises 5 from 0 till the power of the number entered
+"""
 
 num = int(input("Enter a number: "))
 if num >= 0:
